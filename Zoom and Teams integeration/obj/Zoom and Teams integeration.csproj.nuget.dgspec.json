@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dell\\Desktop\\NModeTest\\NModeTest\\Zoom and Teams integeration.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dell\\Desktop\\NModeTest\\NModeTest\\Zoom and Teams integeration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dell\\Desktop\\NModeTest\\NModeTest\\Zoom and Teams integeration.csproj",
+        "projectName": "Zoom and Teams integeration",
+        "projectPath": "C:\\Users\\dell\\Desktop\\NModeTest\\NModeTest\\Zoom and Teams integeration.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dell\\Desktop\\NModeTest\\NModeTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[3.15.0, )"
+            },
+            "Microsoft.Graph.Auth": {
+              "target": "Package",
+              "version": "[1.0.0-preview.5, )"
+            },
+            "Microsoft.Graph.Core": {
+              "target": "Package",
+              "version": "[1.22.0, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.19.0, )"
+            },
+            "NModbus": {
+              "target": "Package",
+              "version": "[3.0.62, )"
+            },
+            "NModbus.SerialPortStream": {
+              "target": "Package",
+              "version": "[3.0.62, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.5, )"
+            },
+            "SerialPortStream": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "System.Security.Principal": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
